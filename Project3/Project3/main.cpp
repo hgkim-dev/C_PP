@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+/* by joheyong */
 void main()
 {
     char names[3][10], dummy; // 2-dimensioanal character array names is used to store the names of the students
