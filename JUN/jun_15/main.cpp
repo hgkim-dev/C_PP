@@ -2,7 +2,12 @@
 
 int main (int argc, char* argv[]) {
 
-printf("Hello World!");
+	long int a,b;
+	
+	scanf("%ld %ld", &a,&b);
+	
+	printf("%ld" , (!a&&!b));
 
-return 0;
- }
+  // Test
+	return 0;
+}
