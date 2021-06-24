@@ -2,11 +2,13 @@
 
 int main (int argc, char* argv[]) {
 
-  long int a;
+  int a,b,c,d;
   
-  scanf("%ld", &a);
+  fseek(stdin,0,SEEK_END);
+  scanf("%d %d %d", &a,&b,&c);
   
-	printf("Value is  : %ld", a);
+  d = (a<b ? a:b)>c ? c:(a<b ? a:b);
+	printf("%d", d);
 
 	return 0;
 }
